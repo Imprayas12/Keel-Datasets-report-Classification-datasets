@@ -1,13 +1,4 @@
-@relation tae
-@attribute Native integer[1,2]
-@attribute Instructor integer[1,25]
-@attribute Course integer[1,26]
-@attribute Semester integer[1,2]
-@attribute Size integer[3,66]
-@attribute Class {1,2,3}
-@inputs Native, Instructor, Course, Semester, Size
-@outputs Class
-@data
+Native,Instructor,Course,Semester,Size,Class
 1,23,3,1,19,3
 2,15,3,1,17,3
 1,23,3,2,49,3
